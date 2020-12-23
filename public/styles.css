@@ -1,0 +1,244 @@
+body {
+  background-image: linear-gradient(to right, #2b2e4a, #903749);
+  text-align: center;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+}
+
+h1 {
+  margin: 5% auto 5%;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h3 {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  color: white;
+}
+
+li {
+  font-size: 20px;
+}
+
+span {
+  position: absolute;
+  left: 80%;
+}
+
+td {
+  padding: 2%;
+}
+
+tr {
+  width: 100%;
+}
+
+table {
+  margin: 5% auto;
+  width: 60%;
+}
+
+ul {
+  list-style: none;
+}
+
+.saving-title {
+  background-color: rgba(219, 226, 239, 0.6);
+  width: 50%;
+  margin: 5% auto 8%;
+  padding: 4% 2%;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.goal {
+  padding-bottom: 2%;
+}
+
+.flex-container {
+  display: flex;
+  margin: 2% auto;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.slider {
+  appearance: none;
+  outline: none;
+  display: block;
+  opacity: 0.6;
+  width: 100%;
+  margin: 3% 0 10%;
+  border-radius: 15px;
+  border: solid 1px white;
+  height: 15px;
+  background: inherit;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #00b8a9;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #00b8a9;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.date {
+  appearance: none;
+  display: block;
+  margin: 3% 0;
+  background: inherit;
+  border: solid 1px white;
+  color: white;
+  padding: 1%;
+  cursor: pointer;
+}
+
+.inputs {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.outputs {
+  color: white;
+  width: 50%;
+  text-align: left;
+  margin: 5% auto 5%;
+  font-size: 20px;
+}
+
+.outputs h5 {
+  margin-bottom: 10%;
+}
+
+.outputs button {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  padding: 2%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: linear-gradient(to left, transparent 50%, #00b8a9 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5% 0;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.outputs button:hover {
+  background-position: left bottom;
+}
+
+.results {
+  width: 60%;
+  margin: 2% auto;
+  text-align: left;
+}
+
+.output-result {
+  font-size: 20px;
+}
+
+.category {
+  text-align: left;
+  position: relative;
+  top: 50%;
+  font-size: 20px;
+}
+
+.calc-title {
+  background-color: rgba(106, 44, 112, 0.3);
+  border-radius: 10px 0 0 10px;
+}
+
+.calc {
+  background-color: rgba(106, 44, 112, 0.3);
+  border-radius: 0 10px 10px 0;
+  font-size: 16px;
+}
+
+.loan-btn {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  padding: 2%;
+  background: linear-gradient(to left, transparent 50%, #00b8a9 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s;
+  width: 80%;
+  cursor: pointer;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.loan-btn:hover {
+  background-position: left bottom;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.tips {
+  background-color: rgba(219, 226, 239, 0.6);
+  width: 60%;
+  margin: 2% auto;
+  padding: 1%;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+}
+
+.tips h1 {
+  color: rgb(76, 68, 68);
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #6639a6;
+  color: white;
+  height: 2.5rem;
+  padding: 2% 0 1%;
+}
