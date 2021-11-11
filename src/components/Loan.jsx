@@ -78,7 +78,7 @@ export default function Loan() {
 
 
     return (
-        <div>
+        <div className="loan-pmt-container">
             <h1>Calculate Loan Payments</h1>
             <table>
                 <tbody>

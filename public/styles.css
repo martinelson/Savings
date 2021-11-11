@@ -1,7 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-image: linear-gradient(to right, #2b2e4a, #903749);
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Maven Pro", sans-serif;
   position: relative;
   min-height: 100vh;
@@ -23,7 +27,7 @@ h3 {
 }
 
 label {
-  color: white;
+  color: black;
 }
 
 li {
@@ -86,7 +90,7 @@ ul {
   width: 100%;
   margin: 3% 0 10%;
   border-radius: 15px;
-  border: solid 1px white;
+  border: solid 1px none;
   height: 15px;
   background: inherit;
   -webkit-transition: 0.2s;
@@ -120,8 +124,8 @@ ul {
   display: block;
   margin: 3% 0;
   background: inherit;
-  border: solid 1px white;
-  color: white;
+  border: solid 1px black;
+  color: black;
   padding: 1%;
   cursor: pointer;
 }
@@ -132,7 +136,7 @@ ul {
 }
 
 .outputs {
-  color: white;
+  color: black;
   width: 50%;
   text-align: left;
   margin: 5% auto 5%;
@@ -145,8 +149,8 @@ ul {
 
 .outputs button {
   background-color: inherit;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid black;
+  color: black;
   padding: 2%;
   position: relative;
   left: 50%;
@@ -162,6 +166,13 @@ ul {
 
 .outputs button:hover {
   background-position: left bottom;
+  color: white;
+}
+
+.loan-pmt-container{
+  background-color: black;
+  padding: 2rem;
+  color: white;
 }
 
 .results {
@@ -241,4 +252,38 @@ ul {
   color: white;
   height: 2.5rem;
   padding: 2% 0 1%;
+}
+
+.nav{
+    width: 100%;
+    background: #6639a6;
+    color: white;
+    height: 4rem;
+    padding: 0 0 1%;
+    text-align: left;
+}
+
+.nav p {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+  .flex-container{
+    display: block;
+  }
+  .outputs{
+    margin-top: 2rem;
+    width: 80%;
+    font-size: 16px;
+  }
+
+  table{
+    width: 100%;
+  }
+
+  .category{
+    font-size: 16px;
+  }
 }
